@@ -34,7 +34,7 @@ public class VanillaMaskePage extends BasePage {
 		while (idx > 0)
 		{
 		    str.insert(idx, ".");
-		    idx = idx - 8;
+		    idx = idx - 3;
 		}
 
 		return str.toString();
